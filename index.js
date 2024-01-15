@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { createInterface } from "readline";
 import { execSync } from "child_process";
 import { writeFileSync, readFileSync } from "fs";
@@ -39,6 +41,8 @@ rl.question("Project name: ", (input) => {
   );
 
   execSync(`rmdir /s /q ${projectName}\\.git`);
+
+  execSync(`cd ${projectName} && del /q LICENSE`);
 
   console.log("Installing dependencies...");
   execSync(`cd ${projectName} && npm install`);

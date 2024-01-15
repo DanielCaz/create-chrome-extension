@@ -4,6 +4,9 @@
   "description": "CLI tool to create a project for a chrome extension with typescript and tailwindcss.",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "create-chrome-extension": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DanielCaz/create-chrome-extension.git"
