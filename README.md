@@ -13,5 +13,5 @@ npm link
 How to run:
 
 ```bash
-npm create chrome-extension
+npx create-chrome-extension
 ```
