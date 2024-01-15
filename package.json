@@ -1,0 +1,17 @@
+{
+  "name": "create-chrome-extension",
+  "version": "1.0.0",
+  "description": "CLI tool to create a project for a chrome extension with typescript and tailwindcss.",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielCaz/create-chrome-extension.git"
+  },
+  "author": "DanielCaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielCaz/create-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/DanielCaz/create-chrome-extension#readme"
+}
